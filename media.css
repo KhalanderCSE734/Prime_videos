@@ -1,0 +1,707 @@
+@media  (max-width:600px) {
+    body {
+        font-size:1rem;
+    }
+    /* .nav {
+        padding:0;
+    } */
+    .menu , .account {
+        display:none;
+    }
+    .menuu {
+        width:70px;
+        display:block;
+        position:relative;
+        right:35%; 
+    }
+     .menuu select option {
+        color:black;
+     }
+
+    .menuu select {
+        font-size:1rem;
+    }
+    .magnifier {
+        margin-left:0;
+        position:relative;
+        left:8%;
+       
+    }
+
+    .magnifier i {
+         font-size:1rem;
+    }
+    .inside{
+        width:95%;
+        justify-content: space-between;
+    }
+    .logo {
+        position:relative;
+        left:37%;
+
+    }
+    .user {
+        height:25px;
+        width:25px;
+    }
+    .user i {
+        color:rgba(255, 255, 255, 0.637);
+        height:25px;
+        width:25px;
+        font-size:1rem;
+        background-color:rgb(10, 112, 229);
+         border-radius:50%;
+          display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .first {
+        height:200px;
+
+    }
+    .first_in {
+    height:200px;
+    justify-content: flex-start;
+    }
+    .first_word {
+        height:150px;
+        padding:0;
+        justify-content:center;
+    }
+
+
+
+    .India {
+        height:20px;
+        font-size:.9rem;
+        margin-bottom:5px;
+    }
+    .img {
+        height:70px;
+        width:150px;
+    }
+    .img img {
+        width:100%;
+    }
+    .ua {
+        height:25px;
+        width:250px;
+        margin:0px;
+        font-size:.8rem;
+    }
+  
+    .ua i {
+        font-size:.8rem;
+    }
+    .ua .adult {
+        height:20px;
+        width:60px; 
+        margin:0;
+        background:transparent;
+    }
+    .but {
+       display:none;
+    }
+    .adult {
+        position:absolute;
+        right:1vw;
+        text-align:center;
+    }
+
+
+    .second {
+        height:500px;
+        display:flex;
+        align-items:flex-start;
+        justify-content: center;
+        background-image:url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+        background-size:contain;
+    }
+    
+    .second_word {
+        width:60%;
+    }
+    .second_in {
+        position:relative;
+        top:10%;
+        display:flex;
+        justify-content: center;
+        align-items:flex-end;
+    }
+    .second_word {
+        height:280px;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+    }
+    .second_word .h {
+        font-size:.9rem;
+        height:50px;
+        width:100%;
+        text-align:center;
+        margin-bottom:19px;
+    }
+   .second_word .watch {
+    height:50px;
+    width:100%;
+    margin:0;
+    font-size:1rem;
+    text-align: center;
+
+   }
+     .second_word button { 
+        margin:0;
+     }
+     .sign {
+        width:85%;
+    }
+    .sign button {
+        width:100%;
+    }
+
+
+
+    .sec {
+        height:800px;
+        background-image:url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+        background-size:100%;
+        background-position:center;
+        position:relative;
+        align-items:center;
+        border-top:10px solid black;
+    }
+        .down {
+            background-color:rgba(0, 0, 0, 0.501);
+            height:100%;
+            width:100%;
+           justify-content:flex-start;
+           /* position:absolute;
+            top:0%; */
+        }
+        .aquaman {
+            height:200px;
+            width:100%;
+            /* position:relative; */
+            position:absolute;
+            top:65%;
+           align-items:flex-start;
+           justify-content: flex-start;
+        }
+        .down .down_h {
+            padding-top:10px;
+            height:80px;
+        }
+
+
+        .play {
+            align-items:flex-start;
+            height:1200px;
+        }
+        .inplay {
+            height:98%;
+            display:flex;
+            flex-direction:column;
+        }
+        .inplay .play_words {
+            height:300px;
+            width:100%;
+        }
+        .inplay .play_images { 
+            height:calc(100%-300px);
+            width:100%;
+            row-gap:1px;
+            column-gap:5px;
+            justify-content: center;
+            align-items:flex-start;
+        }
+        .inplay .play_images img {
+            height:150px;
+            width:160px;
+           }
+
+           .inplay .play_words h1 { 
+            font-size:2rem;
+        
+        }
+        .inplay .play_words p { 
+            font-size:1rem;
+            font-weight:400;
+        }
+        .remote {
+            text-align:center;
+           }
+           .remote p {
+            height:100px;
+            font-size:1rem;
+            margin-top:10px;
+        }
+        .pen {
+            background-image:url(" https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg");
+            background-size:contain;
+            background-position:center;
+        }
+        .drive {
+            height:300px;
+        }
+
+    .videoo {
+        height:150px;
+        width:50%;
+    }
+    .videoo video {
+        height:150px;
+        width:50vw;
+    }
+    footer {
+        position:relative;
+        top:2%;
+    }
+    footer .foot {
+        justify-content: flex-end;
+    }
+    footer a {
+        font-size:.8rem;
+    }
+    footer p {
+        font-size:.8rem;
+    }
+    
+}
+@media (min-width:601px) and (max-width:880px) {
+    body {
+        font-size:1rem;
+    }
+    /* .nav {
+        padding:0;
+    } */
+    .menu , .account {
+        display:none;
+    }
+    .menuu {
+        display:block;
+        position:relative;
+        right:33%;
+    }
+    .menuu select option {
+        color:black;
+     }
+    .magnifier {
+        margin-left:0;
+        position:relative;
+        left:15%;
+    }
+    .inside{
+        width:95%;
+        justify-content: space-between;
+    } 
+    .logo {
+        position:relative;
+        left:43%;
+    }
+    .first {
+        height:350px;
+
+    }
+    .first_in {
+    height:350px;
+    justify-content: flex-start;
+    }
+    .first_word {
+        height:200px;
+        padding:0;
+        justify-content:flex-end;
+    }
+    .sign {
+        width:85%;
+    }
+    .sign button {
+        width:100%;
+    }
+
+    .India {
+        font-size:1rem;
+        /* margin-bottom:5px; */
+    }
+    .img {
+        height:90px;
+        width:200px;
+    }
+    .img img {
+        width:100%;
+    }
+    .ua {
+        height:25px;
+        width:250px;
+        margin:10px 0px;
+        font-size:.8rem;
+    }
+  
+    .ua i {
+        font-size:1rem;
+    }
+    .ua .adult {
+        height:20px;
+        width:60px; 
+        margin:0;
+        background:transparent;
+
+    }
+    .but {
+       display:none;
+    }
+    .adult {
+        position:absolute;
+        right:1vw;
+        text-align:center;
+    }
+    /* .but .bon {
+        height:50px;
+        width:150px;
+    }
+    .but .bon button {
+        font-size:1rem;
+    }
+    
+    .plus {
+        font-size:1.5rem;
+        height:57px;
+        width:55px;
+    } */
+    .second {
+        height:600px;
+        display:flex;
+        align-items:flex-start;
+        justify-content: center;
+        background-image:url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+        background-size:100%;
+    }
+    
+    .second_word {
+        width:60%;
+    }
+    .second_in {
+        position:relative;
+        top:10%;
+        display:flex;
+        justify-content: center;
+        align-items:flex-end;
+    }
+    .second_word {
+        position:relative;
+        top:35px;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items: center;
+    }
+    .second_word button {
+        margin-top:5px;
+    }
+    .second_word .h {
+        font-size:1.1rem;
+        /* height:100px;
+        width:550px; */
+        text-align:center;
+    }
+   .second_word .watch {
+    width:100%;
+    margin-top:5px;
+    /* font-size:1.1rem; */
+    text-align: center;
+
+   }
+
+   .sec {
+    height:850px;
+    background-image:url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+    background-size:100%;
+    background-position:center;
+    position:relative;
+    align-items:center;
+    border-top:10px solid black;
+}
+    .down {
+        background-color:rgba(0, 0, 0, 0.501);
+        height:100%;
+        width:100%;
+       justify-content:flex-start;
+       /* position:absolute;
+        top:0%; */
+    }
+    .aquaman {
+        height:200px;
+        width:100%;
+        position:absolute;
+        top:65%;
+       align-items:flex-start;
+       justify-content: flex-start;
+    }
+    .down .down_h {
+        padding-top:10px;
+        height:80px;
+    }
+    .videoo {
+        height:200px;
+        width:50%;
+    }
+    .videoo video {
+        height:200px;
+        width:50vw;
+    }
+
+    .play {
+        align-items:flex-start;
+        height:1500px;
+    }
+    .inplay {
+        height:98%;
+        display:flex;
+        flex-direction:column;
+    }
+    .inplay .play_words {
+        height:300px;
+        width:100%;
+    }
+    .inplay .play_images { 
+        height:calc(100%-300px);
+        width:100%;
+        row-gap:1px;
+    }
+    .inplay .play_images img {
+        height:180px;
+        width:240px;
+       }
+       .remote {
+        text-align:center;
+       }
+       .remote p {
+        height:100px;
+    }
+    .pen {
+        background-image:url(" https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg");
+        background-size:contain;
+        background-position:center;
+    }
+    .remote p {
+        font-size:1.3rem;
+        margin-top:10px;
+    }
+}
+
+@media (min-width:881px) and (max-width:1280px) {
+    body {
+        font-size:1rem;
+    }
+    /* .nav {
+        padding:0;
+    } */
+    /* .menu , .account {
+        display:none;
+    } */
+    /* .menuu {
+        margin-left:50px;
+        display:block;
+        position:relative;
+        right:33%;
+    } */
+    .menu {
+        margin-left:25px;
+    }
+    .magnifier {
+        margin-left:0;
+        /* position:relative;
+        left:20%; */
+    }
+    /* .inside{
+        width:95%;
+        justify-content: space-between;
+    }
+    .logo {
+        position:relative;
+        left:43%;
+    } */
+    .first {
+        height:550px;
+
+    }
+    .first_in {
+    height:500px;
+    justify-content: flex-start;
+    }
+    .first_word {
+        height:350px;
+    }
+
+
+
+    .India {
+        font-size:1.2rem;
+        margin-bottom:5px;
+    }
+    .img {
+        height:90px;
+        width:200px;
+    }
+    .img img {
+        width:100%;
+    }
+    .ua {
+        margin-top:30px;
+    }
+  
+    .ua i {
+        font-size:1.1rem;
+    }
+    .but {
+        height:60px;
+        width:250px;
+    }
+    .but .bon {
+        height:60px;
+        width:150px;
+    }
+    .but .bon button {
+        font-size:1.1rem;
+    }
+    
+    .plus {
+        font-size:1.5rem;
+        height:57px;
+        width:55px;
+    }
+
+
+
+
+
+
+
+
+    .videoo {
+        height:400px;
+        width:50%;
+    }
+    .videoo video {
+        height:400px;
+        width:50vw;
+    }
+
+        .second_word .h {
+            height:100px;
+            width:500px;
+            font-size:1.3rem;
+        }
+       .second_word .watch {
+        width:480px;
+       }
+
+       .play {
+        height: 1100px;
+       }
+       .inplay .play_images img {
+        height:130px;
+        width:180px;
+       }
+       .inplay .play_images {
+        column-gap:5px;
+        row-gap:5px;
+       }
+       .remote p {
+        height:170px;
+        font-size:1.4rem;
+        margin-top:10px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .logo {
+        position:relative;
+        left:32%;
+    }
+    .menuu {
+        width:70px;
+        display:block;
+        position:relative;
+        right:40%;
+    }
+
+
+    .India {
+        height:15px;
+        font-size:.7rem;
+        margin-bottom:5px;
+    }
+    .img {
+        height:60px;
+        width:130px;
+    }
+    /* .img img {
+        width:100%;
+    } */
+    .ua {
+        height:25px;
+        width:230px;
+        margin:0px;
+        font-size:.8rem;
+    }
+    .but {
+       display:none;
+    }
+    /* .ua i {
+        font-size:.8rem;
+    } */
+    /* .ua .adult {
+        height:20px;
+        width:60px; 
+        margin:0;
+        background:transparent;
+    } */
+  
+    /* .adult {
+        position:absolute;
+        right:1vw;
+        text-align:center;
+    } */
+    .second_word { 
+        position:relative;
+        top:50px;
+    }
+    .second_word h1 {
+         height:80px;
+         font-size:1.5rem;
+    }
+    .second_word button {
+        height:35px;
+        margin-top:10px;
+    }
+    .second_in {
+        align-items:center;
+    }
+    .play {
+        align-items:flex-start;
+        height:1800px;
+    }
+    .inplay .play_images img {
+        height:120px;
+        width:170px;
+       }
+       footer {
+        position:relative;
+        top:50px;
+    }
+}
+
+@media (min-width:1110px) and (max-width:1279px) {
+    .India {
+        font-size:1.4rem;
+    }
+    .img {
+        height:110px;
+        width:280px;
+    }
+    
+}
