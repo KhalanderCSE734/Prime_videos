@@ -1,6 +1,6 @@
 # Creating my clone adding it to gitHUB
 <br>
-Finally created my prime videos with only HTML and CSS
+Finally created(Cloned) prime videos with only HTML and CSS
 <br>
 It's completely RESPONSIVE 
 <br>
